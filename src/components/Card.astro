@@ -1,0 +1,19 @@
+---
+const {img,preu,titol} = Astro.props
+
+
+
+---
+
+
+
+<div class="border-solid border-2 skew-y-0 group">
+	<div 	class="h-80  overflow-y-hidden group-hover:invert origin-top-left  transition delay-150 duration-[2s] 	">
+		<a href=""><img class="h-80 w-full"src={img} alt=""></a>
+	</div>
+
+	<div class="texto group-hover:scale-150 group-hover:text-3xl transition delay-500 delay-500 duration-[2s	] z-0">
+		<p>{preu}</p>
+		<p>{titol}</p>
+	</div>
+</div>	
